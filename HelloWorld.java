@@ -10,8 +10,9 @@ public class HelloWorld {
         if (key.equals("Hello World")) {
             System.out.println("Output: " + key);}
         else {
-     System.out.print("Invalid input, please enter 'Hello World'");
-    }
+            System.out.println("Invalid input, please enter 'Hello World'");
+        }
+
+        scan.close();
     } 
 }
-
